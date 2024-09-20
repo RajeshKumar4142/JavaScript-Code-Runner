@@ -1,0 +1,103 @@
+/* Reset some default styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+textarea, #output {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 1rem;
+  resize: none;
+}
+
+textarea {
+  height: 200px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#output {
+  background-color: #e9ecef;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  min-height: 50px;
+  padding: 15px;
+  word-wrap: break-word;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  textarea {
+    height: 150px;
+    font-size: 0.9rem;
+  }
+
+  button {
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  #output {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+}
+.clear{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #ff0000;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+
+}
